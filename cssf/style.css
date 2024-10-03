@@ -4,11 +4,11 @@
 {
     position: absolute;
     background-color: #014047de;
-    width: 1200px;
+    width: 1000px;
     border-radius: 40px;
     box-shadow: #014047 0 0 2em;
-    top: 15%;
-    left: 16%;
+    top: 1%;
+    left: 13%;
 }
 .livros
 {

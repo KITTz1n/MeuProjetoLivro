@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+.historia
+{
+    background-color: rgba(0, 0, 0, 0.137);
+    margin: auto;
+    height: 492px;
+    width: 590px;
+    border-radius: 40px;
+    padding: 100px;
+    border: 1px solid #EB876B;
+}
+.pagina
+{
+    text-align: end;
+    color: #EB876B;
+}
+.livros
+{
+    text-align: center;
+}
+.arthur1
+{
+    background-color: #092932;
+}
+.corpoprin
+{
+    background-color:#092932;
+}
+.fundosum
+{
+    background-color: #092932;
+}
+.quadradosum
+{
+    width: 1310px;
+    height: 580px;
+    background-color: #EB876B;
+    border-radius: 15px;
+}
+.base3
+{
+    text-align: center;
+}
+.titulo1
+{
+    color: #F9F5F2;
+    text-shadow: #F9F5F2 0 0 0.8em;
+    text-align: center;
+    margin: 30px;
+}
+.texto1
+{
+    color: #F9F5F2;
+    text-align: center;
+    border: 1px solid green;
+}
+.texto2
+{
+    text-align: center;
+    margin: 10px;
+    color: #EB876B;
+}
+.texto3
+{
+    text-align: center;
+    margin: 10px;
+    color: #F9F5F2;
+}
+.texto4
+{
+    color: #F9F5F2;
+    text-align: center;
+    text-decoration: none;
+}
+.imagem
+{
+    border-radius: 10%;
+    margin: 10px;
+    height: 540px;
+    border: 1px solid #F9F5F2;
+    box-shadow: #F9F5F2 0 0 1.1em;
+}
+.palavra
+{
+    color: white ;
+    text-shadow: #F9F5F2 0 0 0.3em;
+}
+.pdf:hover
+{
+    border-bottom: 2px solid #F9F5F2;
+}
+.net:hover
+{
+    border-bottom: 2px solid #F9F5F2;
+}

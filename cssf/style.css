@@ -33,10 +33,13 @@
 }
 .quadradosum
 {
-    width: 1310px;
+    position: absolute;
+    width: 1000px;
     height: 580px;
     background-color: #EB876B;
     border-radius: 15px;
+    top: 3%;
+    left: 13%;
 }
 .base3
 {
@@ -69,6 +72,7 @@
 }
 .texto4
 {
+    position: relative;
     color: #F9F5F2;
     text-align: center;
     text-decoration: none;

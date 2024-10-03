@@ -3,17 +3,12 @@
 .historia
 {
     background-color: rgba(0, 0, 0, 0.137);
-    margin: auto;
-    height: 492px;
-    width: 590px;
+    width: 1200px;
     border-radius: 40px;
-    padding: 100px;
     border: 1px solid #EB876B;
-}
-.pagina
-{
-    text-align: end;
-    color: #EB876B;
+    position: absolute;
+    top: 15%;
+    left: 16%;
 }
 .livros
 {
@@ -53,7 +48,7 @@
 {
     color: #F9F5F2;
     text-align: center;
-    border: 1px solid green;
+    position: relative;
 }
 .texto2
 {

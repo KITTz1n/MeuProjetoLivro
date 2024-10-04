@@ -18,7 +18,7 @@
 {
     background-image: url("../imagens/fundo/arvore\ 700.png");
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-color: rgba(0, 0, 0, 0.644);
     background-blend-mode: multiply;
     position: relative;
@@ -33,12 +33,15 @@
 }
 .quadradosum
 {
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    width: 1000px;
-    height: 580px;
     background-color: #EB876B;
+    height: 450px;
+    width: 1000px;
     border-radius: 15px;
-    top: 3%;
+    box-shadow: #EB876B 0 0 1.9em;
+    top: 10%;
     left: 13%;
 }
 .base3
@@ -70,12 +73,19 @@
     margin: 10px;
     color: #F9F5F2;
 }
+.alinharsum
+{
+    text-align: center;
+    position: relative;
+}
 .texto4
 {
-    position: relative;
     color: #F9F5F2;
-    text-align: center;
     text-decoration: none;
+}
+.texto4:hover
+{
+    text-decoration: underline;
 }
 .imagem
 {
@@ -85,16 +95,14 @@
     border: 1px solid #F9F5F2;
     box-shadow: #F9F5F2 0 0 1.1em;
 }
+.imagem2
+{
+    position: absolute;
+    transform: rotate(180deg);
+    top: 84%;
+}
 .palavra
 {
     color: white ;
     text-shadow: #F9F5F2 0 0 0.3em;
-}
-.pdf:hover
-{
-    border-bottom: 2px solid #F9F5F2;
-}
-.net:hover
-{
-    border-bottom: 2px solid #F9F5F2;
 }

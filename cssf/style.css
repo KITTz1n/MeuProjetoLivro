@@ -29,19 +29,24 @@
 }
 .fundosum
 {
-    background-color: #092932;
+    background-image: url(../imagens/fundo/arvore2.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-color: rgba(0, 0, 0, 0.644);
+    background-blend-mode: multiply;
+    position: relative;
 }
 .quadradosum
 {
     align-items: center;
     justify-content: center;
     position: absolute;
-    background-color: #EB876B;
+    background-color: #e688ab;
     height: 450px;
     width: 1000px;
     border-radius: 15px;
-    box-shadow: #EB876B 0 0 1.9em;
-    top: 10%;
+    box-shadow: #e688ab 0 0 1.9em;
+    top: 50%;
     left: 13%;
 }
 .base3

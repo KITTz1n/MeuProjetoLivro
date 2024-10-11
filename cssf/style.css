@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.bots
+{
+    text-decoration: none;
+}
 .historia
 {
     position: absolute;
@@ -25,7 +29,7 @@
 }
 .corpoprin
 {
-    background-color:#092932;
+    background-image: linear-gradient(180deg, #071d24, #004d3e);
 }
 .fundosum
 {

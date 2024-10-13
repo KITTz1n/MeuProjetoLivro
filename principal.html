@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="cssf/style.css">
+    <link rel="stylesheet" href="cssf/st2.css">
+    <script src="jsf/funcoes.js"></script>
     <title>Principal</title>
 </head>
 <body class="corpoprin">
     <table class="mesa1">
         <tr>
             <td>
-                <img class="imagem" src="imagens/Capa800.png" alt="Capa">
+                <div class="capa"></div>
             </td>
             <td>
                 <div class="base3">
@@ -38,16 +40,11 @@
     </p>
     <div class="livros">
         <abbr title="Baixar em PDF" class="bots">
-            <a href=""><img class="pdf" src="imagens/pdf_70x70_sem_glow.png" alt="bot pdf" width="200px"></a>
+            <button onclick="pdf()" type="button" class="botao"><div class="pdf"></div></button>
         </abbr>
-        <abbr title="Ler Digitalmente" class="bots">
-            <a href="historias/índice.html"><img class="net" src="imagens/wifi_70x70_sem_glow.png" alt="bot net" width="200px"></a>
+        <abbr title="Ler Digitalmente">
+            <button onclick="net()" type="button" class="botao"><div class="net"></div></button>
         </abbr>
     </div>
-    <p class="texto3">
-        PDF EM DESENVOLVIMENTO.
-        <br>
-        VIRTUAL TENDO 2 HISTORIAS POR ENQUANTO.
-    </p>
 </body>
 </html>

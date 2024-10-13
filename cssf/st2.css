@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.pdf
+{
+    width: 200px;
+    height: 200px;
+    background-image: url(../imagens/livros/pdf_70x70_sem_glow_es.png);
+    background-size: cover;
+    transition: background-image 0.5s ease;
+}
+.pdf:hover
+{
+    background-image: url(../imagens/livros/pdf_70x70.png);
+}
+.net
+{
+    width: 200px;
+    height: 200px;
+    background-image: url(../imagens/livros/wifi_70x70_sem_glow_es.png);
+    background-size: cover;
+    transition: background-image 0.5s ease;
+}
+.net:hover
+{
+    background-image: url(../imagens/livros/wifi_70x70.png);
+}
+.livros
+{
+    text-align: center;
+}
+.botao
+{
+    border: none;
+    background: none;
+}
+.capa
+{
+    width: 550px;
+    height: 550px;
+    background-image: url(../imagens/capa_e_contra/Capa800.png);
+    background-size: cover;
+    border-radius: 10%;
+    margin: 10px;
+    border: 0.1px solid #F9F5F2;
+    box-shadow: #F9F5F2 0 0 1.5em;
+    transition: background-image 1.2s ease;
+}
+.capa:hover
+{
+    background-image: url(../imagens/capa_e_contra/Contracapa800.png);
+    transition: background-image 1.2s ease;
+}

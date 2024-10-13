@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-.bots
-{
-    text-decoration: none;
-}
 .historia
 {
     position: absolute;
@@ -14,13 +10,9 @@
     top: 1%;
     left: 13%;
 }
-.livros
-{
-    text-align: center;
-}
 .arthur1
 {
-    background-image: url("../imagens/fundo/arvore\ 700.png");
+    background-image: url("../imagens/fundo/arvoreAr700x.png");
     background-size: 100%;
     background-repeat: repeat;
     background-color: rgba(0, 0, 0, 0.644);
@@ -33,7 +25,7 @@
 }
 .fundosum
 {
-    background-image: url(../imagens/fundo/arvore2.png);
+    background-image: url(../imagens/fundo/arvoreIn700x.png);
     background-size: 100%;
     background-repeat: repeat;
     background-color: rgba(0, 0, 0, 0.644);
@@ -46,7 +38,7 @@
     justify-content: center;
     position: absolute;
     background-color: #e688ab;
-    height: 450px;
+    height: 490px;
     width: 1000px;
     border-radius: 15px;
     box-shadow: #e688ab 0 0 1.9em;
@@ -101,11 +93,28 @@
     border-radius: 10%;
     margin: 10px;
     height: 540px;
-    border: 1px solid #F9F5F2;
-    box-shadow: #F9F5F2 0 0 1.1em;
+    border: 0.1px solid #F9F5F2;
+    box-shadow: #F9F5F2 0 0 1.5em;
 }
 .palavra
 {
     color: white ;
     text-shadow: #F9F5F2 0 0 0.3em;
+}
+.teste
+{
+    text-align: center;
+}
+.teste2
+{
+    width: 80px;
+    height: 80px;
+    background-color: #EB876B;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+.teste2:hover
+{
+    background-color: #c5685c;
+    box-shadow: #ffffff 0 0 0.5em;
 }

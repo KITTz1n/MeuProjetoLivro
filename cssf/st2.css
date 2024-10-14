@@ -24,6 +24,18 @@
 {
     background-image: url(../imagens/livros/wifi_70x70.png);
 }
+.retroceder
+{
+    width: 120px;
+    height: 120px;
+    background-image: url(../imagens/livros/seta_retroceder_sem_glow_es.png);
+    background-size: cover;
+    transition: background-image 0.5s ease;
+}
+.retroceder:hover
+{
+    background-image: url(../imagens/livros/seta_retroceder.png);
+}
 .livros
 {
     text-align: center;

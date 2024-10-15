@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+.corpoSin
+{
+    background-image: linear-gradient(180deg, #071d24, #004d3e);
+    height: 600px;
+}
+.centralizar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botao-sing button
+{
+    display: flexbox;
+    width: 100%;
+    height: 30px;
+    margin: 5px;
+    justify-content: space-between;
+    border: none;
+    border-radius: 10px;
+}
+.enviar
+{
+    background-color: #004d3e;
+    color: #F9F5F2;
+    text-shadow: #F9F5F2 0 0 0.7em;
+    transition: background-color 0.3s ease;    
+}
+.enviar:hover
+{
+    background-color: #071d24;
+}
+.formularioSing
+{
+    display: flex;
+    background-color: #EB876B;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #EB876B;
+    top: 10%;
+}
+.formularioSing input[type="text"],
+.formularioSing input[type="email"],
+.formularioSing input[type="password"]
+{
+    width: 90%;
+    background-color: #F9F5F2;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: #F9F5F2 0 0 0.2em;
+    border-radius: 4px;
+}
+.formularioSing input[type="text"]:hover,
+.formularioSing input[type="email"]:hover,
+.formularioSing input[type="password"]:hover
+{
+    background-color: #dbd7d4;
+    box-shadow: #dbd7d4 0 0 0.2em;
+}
+.botao-sing
+{
+    display: flex;
+    justify-content: space-between;
+}
+.botao-irlog
+{
+    background: none;
+    border: none;
+    color: #e6e2df;
+}
+.botao-irlog:hover
+{
+    text-decoration: underline;
+    color: #F9F5F2;
+}
+.cancelar
+{
+    background-color: #F8434C;
+    color: #F9F5F2;
+    text-shadow: #F9F5F2 0 0 0.7em;
+    transition: background-color 0.3s ease;
+}

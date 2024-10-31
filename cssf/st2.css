@@ -1,9 +1,44 @@
 @charset "UTF-8";
 
+.corpoprin
+{
+    background-color: #071d24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.forma
+{
+    padding: 3%;
+    background-image: linear-gradient(180deg, #071d24, #004d3e);
+    border-radius: 10px;
+    height: 90%;
+    width: 90%;
+}
+.centro
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.centro2
+{
+    text-align: center;
+}
+.imagem
+{
+    border-radius: 10px;
+    height: 50%;
+    width: 50%;
+    box-shadow: #F9F5F2 0 0 1.1em;
+    margin-bottom: 20px;
+}
 .pdf
 {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-image: url(../imagens/livros/pdf_70x70_sem_glow_es.png);
     background-size: cover;
     transition: background-image 0.5s ease;
@@ -14,8 +49,8 @@
 }
 .net
 {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-image: url(../imagens/livros/wifi_70x70_sem_glow_es.png);
     background-size: cover;
     transition: background-image 0.5s ease;
@@ -36,10 +71,6 @@
 {
     background-image: url(../imagens/livros/seta_retroceder.png);
 }
-.livros
-{
-    text-align: center;
-}
 .botao
 {
     border: none;
@@ -48,14 +79,9 @@
 }
 .capa
 {
-    width: 550px;
-    height: 550px;
     background-image: url(../imagens/capa_e_contra/Capa800.png);
-    background-size: cover;
-    border-radius: 10%;
-    margin: 10px;
-    border: 0.1px solid #F9F5F2;
-    box-shadow: #F9F5F2 0 0 1.5em;
+    width: 100%;
+    height: 100%;
     transition: background-image 1.2s ease;
 }
 .capa:hover
@@ -63,27 +89,42 @@
     background-image: url(../imagens/capa_e_contra/Contracapa800.png);
     transition: background-image 1.2s ease;
 }
-.menu
+.titulo1
 {
-    background-color: #EB876B;
-    box-shadow: #EB876B 0 0 10px;
-    height: 80px;
-}
-.singup
-{
-    border: none;
-    border-radius: 10px;
-    background-color: #004d3e;
     color: #F9F5F2;
-    text-shadow: #F9F5F2 0 0 0.7em;
-    position: relative;
-    top: 25%;
-    left: 82%;
-    width: 15%;
-    height: 40px;
-    transition: background-color 0.3s ease;
+    text-shadow: #F9F5F2 0 0 0.8em;
+    text-align: center;
 }
-.singup:hover
+.texto1
 {
-    background-color: #071d24;
+    color: #F9F5F2;
+    text-align: center;
+    position: relative;
+}
+.texto2
+{
+    text-align: center;
+    margin: 10px;
+    color: #EB876B;
+}
+.texto3
+{
+    text-align: center;
+    margin: 10px;
+    color: #F9F5F2;
+}
+.texto4
+{
+    color: #e6e2df;
+    text-decoration: none;
+}
+.texto4:hover
+{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.texto5
+{
+    color: white ;
+    text-shadow: #F9F5F2 0 0 0.3em;
 }

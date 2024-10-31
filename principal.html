@@ -3,48 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cssf/style.css">
     <link rel="stylesheet" href="cssf/st2.css">
     <link rel="shortcut icon" href="imagens/favicons/favicon.ico" type="image/x-icon">
     <script src="jsf/funcoes.js"></script>
     <title>Principal</title>
 </head>
 <body class="corpoprin">
-    <table class="mesa1">
-        <tr>
-            <td>
-                <div class="capa"></div>
-            </td>
-            <td>
-                <div class="base3">
-                    <div class="titulo1">
-                        <h1>Os Contos interestelares</h1>
-                    </div>
-                    <div class="texto2">
-                        <p>
-                            <str class="palavra">Teste:</str> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam provident, deleniti necessitatibus placeat omnis nobis nostrum culpa iure quibusdam doloremque facilis illum cumque quod ut. Corporis doloremque voluptate odio molestiae.<br>
-                            <str class="palavra">Teste:</str> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam commodi et dolor debitis vitae magnam cupiditate magni, rem vero inventore quo consequatur reiciendis alias perferendis! Dignissimos, deleniti? Nobis, consequuntur quas?<br>
-                            <str class="palavra">Teste:</str> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem velit soluta sapiente consequatur id nam nihil necessitatibus amet doloremque officiis dolorem, ullam facilis libero minus, labore ipsam reprehenderit aut! Eos.<br>
-                            <br>
-                            <str class="palavra"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde vitae eius inventore aspernatur illo rerum nesciunt fuga.</str>
-                            <br>
-                        </p>
-                    </div>
-                </div>
-            </td>
-        </tr>
-    </table>
-    <br>
-    <p class="texto3">
-        Escolha uma das opcoes abaixo:
-    </p>
-    <div class="livros">
-        <abbr title="Baixar em PDF" class="bots">
-            <button onclick="retro_e_avan('')" type="button" class="botao"><div class="pdf"></div></button>
-        </abbr>
-        <abbr title="Ler Digitalmente">
-            <button onclick="retro_e_avan('historias/índice.html')" type="button" class="botao"><div class="net"></div></button>
-        </abbr>
+    <div class="forma">
+        <div class="centro2">
+            <picture>
+                <source class="imagem" media="(max-width: 450px)" srcset="imagens/capa_e_contra/Capa200.png">
+                <source class="imagem" media="(max-width: 850px)" srcset="imagens/capa_e_contra/Capa400.png">
+                <img class="imagem" src="imagens/capa_e_contra/Capa800.png" alt="Capa">
+            </picture>
+            <br>
+            <div class="titulo1">
+                <h1>Os Contos interestelares</h1>
+            </div>
+            <br>
+            <p class="texto2">
+                <str class="texto5">Teste:</str> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam provident, deleniti necessitatibus placeat omnis nobis nostrum culpa iure quibusdam doloremque facilis illum cumque quod ut. Corporis doloremque voluptate odio molestiae.<br>
+                <str class="texto5">Teste:</str> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam commodi et dolor debitis vitae magnam cupiditate magni, rem vero inventore quo consequatur reiciendis alias perferendis! Dignissimos, deleniti? Nobis, consequuntur quas?<br>
+                <str class="texto5">Teste:</str> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem velit soluta sapiente consequatur id nam nihil necessitatibus amet doloremque officiis dolorem, ullam facilis libero minus, labore ipsam reprehenderit aut! Eos.<br>
+                <br>
+                <str class="texto5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde vitae eius inventore aspernatur illo rerum nesciunt fuga.</str>
+            </p>
+            <br>
+            <p class="texto3">
+                Escolha uma das opcoes abaixo:
+            </p>
+        </div>
+        <div class="centro">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <abbr title="Baixar em PDF" class="bots">
+                                <button onclick="retro_e_avan('')" type="button" class="botao"><div class="pdf"></div></button>
+                            </abbr>
+                        </td>
+                        <td>
+                            <abbr title="Ler Digitalmente">
+                                <button onclick="retro_e_avan('historias/índice.html')" type="button"   class="botao"><div class="net"></div></button>
+                            </abbr>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </body>
 </html>

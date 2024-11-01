@@ -26,29 +26,23 @@
     background-repeat: repeat;
     background-color: rgba(0, 0, 0, 0.644);
     background-blend-mode: multiply;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.forma
+{
+    width: 80%;
+    height: 590px;
 }
 .quadradosum
 {
-    align-items: center;
-    justify-content: center;
-    position: absolute;
+    padding: 3%;
+    height: 70%;
     background-color: #e688ab;
-    height: 490px;
-    width: 1000px;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: #e688ab 0 0 1.9em;
-    top: 50%;
-    left: 13%;
-}
-.base3
-{
-    text-align: center;
-}
-.alinharsum
-{
-    text-align: center;
-    position: relative;
 }
 .imagem
 {

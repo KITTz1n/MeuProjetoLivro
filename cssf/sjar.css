@@ -1,0 +1,25 @@
+.forma
+{
+    width: 80%;
+    height: 100%;
+    margin-left: 8%;
+    padding: 1%;
+}
+.quadradoar
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #014047de;
+    background-size: cover;
+    width: 100%;
+    border-radius: 40px;
+    box-shadow: #014047 0 0 2em;
+}
+.fundo
+{
+    background-image: url("../imagens/fundo/arvoresAr.png");
+    background-size: 100%;
+    background-repeat: repeat;
+    background-color: rgba(0, 0, 0, 0.644);
+    background-blend-mode: multiply;
+}

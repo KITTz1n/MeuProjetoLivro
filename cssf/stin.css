@@ -1,27 +1,9 @@
 @charset "UTF-8";
+/* Desing index */
 
-.historia
+.fundoin
 {
-    position: absolute;
-    background-color: #014047de;
-    width: 1000px;
-    border-radius: 40px;
-    box-shadow: #014047 0 0 2em;
-    top: 1%;
-    left: 13%;
-}
-.arthur1
-{
-    background-image: url("../imagens/fundo/arvoreAr700x.png");
-    background-size: 100%;
-    background-repeat: repeat;
-    background-color: rgba(0, 0, 0, 0.644);
-    background-blend-mode: multiply;
-    position: relative;
-}
-.fundosum
-{
-    background-image: url(../imagens/fundo/arvoreIn700x.png);
+    background-image: url(../imagens/fundo/arvoresIn.png);
     background-size: 100%;
     background-repeat: repeat;
     background-color: rgba(0, 0, 0, 0.644);
@@ -36,7 +18,7 @@
     width: 80%;
     height: 590px;
 }
-.quadradosum
+.quadradoin
 {
     padding: 3%;
     height: 70%;

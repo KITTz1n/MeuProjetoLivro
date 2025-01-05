@@ -13,5 +13,6 @@ function retro_e_avan(local)
     else
     {
         window.location.href = local
+        console.log('Tentou algo em desenvolvimento ainda')
     }
 }
